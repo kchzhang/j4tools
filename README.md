@@ -1,29 +1,47 @@
-# 介绍
+# j4Tools
 
-## 特性
+A modern JavaScript utility library delivering modularity, performance & extras.
 
-- 一个开箱即用的高质量 JavaScript 工具库。
+Business tools
 
-* 现代浏览器。1.x 版本支持 IE 9+（需要 [polyfills]）
-
-* 支持 node。
-
-| </br>IE / Edge | </br>Firefox    | </br>Chrome     | </br>Safari     | </br>Opera      | </br>Electron   |
-| -------------- | --------------- | --------------- | --------------- | --------------- | --------------- |
-| Edge           | last 2 versions | last 2 versions | last 2 versions | last 2 versions | last 2 versions |
-
-## 安装
-
-### 使用 npm 或 yarn 安装
+## Using npm:
 
 ```bash
 $ npm install j4Tools --save
-```
 
-```bash
+# or
 $ yarn add j4Tools
+
 ```
 
-## 了解更多
+## In a browser:
+
+```js
+import { hello } from 'j4Tools';
+
+hello('hello world');
+
+// hello world
+
+// or
+
+// <script src="j4Tools.js"></script>
+
+j4Tools.hello('hello world');
+```
+
+## In Node.js:
+
+```js
+const j4Tools = require('j4Tools');
+```
+
+## Support
+
+| </br>IE / Edge   | </br>Firefox    | </br>Chrome     | </br>Safari     | </br>Opera      | </br>Electron   |
+| ---------------- | --------------- | --------------- | --------------- | --------------- | --------------- |
+| Edge (polyfills) | last 2 versions | last 2 versions | last 2 versions | last 2 versions | last 2 versions |
+
+## learn more
 
 [文档](https://kchzhang.github.io/)
