@@ -38,6 +38,10 @@
   },
   "name": "j4tools",
   "author": "knox.zhang",
+  "bugs": {
+    "url": "https://github.com/kchzhang/j4Tools/issues"
+  },
+  "homepage": "https://github.com/kchzhang/j4Tools#readme",
   "module": "dist/j4tools.esm.js",
   "size-limit": [
     {
