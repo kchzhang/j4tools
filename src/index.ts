@@ -1,3 +1,5 @@
-export const hello = (val: string) => {
-  console.log(val)
-};
+import cloneDeep from "./.internal/cloneDeep";
+
+export {
+  cloneDeep
+}
