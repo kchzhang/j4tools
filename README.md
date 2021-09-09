@@ -44,4 +44,4 @@ const j4Tools = require('j4Tools');
 
 ## learn more
 
-[文档](https://kchzhang.github.io/)
+[docs](https://kchzhang.github.io/)
