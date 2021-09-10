@@ -5,4 +5,5 @@ const _ = require('../dist/index');
 // console.log(_.regPhone("13112345678"));
 // console.log(_.regMail("zhangffff@qq.com"));
 // console.log(_.regCardNumGreen("粤BF1"));
+// console.log(_.getURLParams('/?1=1&a={a:1}'));
 

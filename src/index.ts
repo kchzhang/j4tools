@@ -7,6 +7,9 @@ import regMail from './regexp/regMail';
 import regCardNum from './regexp/regCardNum';
 import regCardNumGreen from './regexp/regCardNumGreen';
 import regSocialCreditCode from './regexp/regSocialCreditCode';
+import isBrowser from './data/browser';
+import deviceType from './data/deviceType';
+import getURLParams from './data/getUrlParams';
 
 export {
   cloneDeep,
@@ -17,5 +20,8 @@ export {
   regMail,
   regCardNum,
   regCardNumGreen,
-  regSocialCreditCode
+  regSocialCreditCode,
+  isBrowser,
+  deviceType,
+  getURLParams
 };
