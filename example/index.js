@@ -6,4 +6,5 @@ const _ = require('../dist/index');
 // console.log(_.regMail("zhangffff@qq.com"));
 // console.log(_.regCardNumGreen("粤BF1"));
 // console.log(_.getURLParams('/?1=1&a={a:1}'));
+// console.log(_.regPasswordStrong('123AsO@'));
 
