@@ -8,6 +8,32 @@ const _ = require('../dist/index');
 // console.log(_.getURLParams('/?1=1&a={a:1}'));
 // console.log(_.regPasswordStrong('123AsO@'));
 // console.log(_.dateToMs(new Date()));
-console.log(_.formatDate(new Date(),'yyyy-MM-dd hh:mm'));
-
-
+console.log(
+  _.treeToList(
+    [
+        {
+          id: 1, parentId: null, children: [{
+            id: 2,
+            parentId: 1,
+            children: [
+              {
+                id: 3,
+                parentId: 2,
+                children: [
+                ]
+              }
+            ]
+          }]
+        },
+        {
+          id: 2, parentId: 1, children: [{
+            id: 3,
+            parentId: 2,
+            children: []
+          }]
+        },
+        { id: 3, parentId: 2, children: [] }
+      ]
+    ,'children'
+  )
+);

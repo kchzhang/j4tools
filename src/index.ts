@@ -13,6 +13,10 @@ import deviceType from './data/deviceType';
 import getURLParams from './data/getUrlParams';
 import dateToMs from './date/dateToMs';
 import formatDate from './date/formatDate';
+import blobDown from './down/blobDown';
+import getNodePath from './data/getNodePath';
+import listToTree from './data/listToTree';
+import treeToList from './data/treeToList';
 
 export {
   cloneDeep,
@@ -29,5 +33,9 @@ export {
   deviceType,
   getURLParams,
   dateToMs,
-  formatDate
+  formatDate,
+  blobDown,
+  getNodePath,
+  listToTree,
+  treeToList
 };
