@@ -17,9 +17,9 @@ $ yarn add j4Tools
 ## In a browser:
 
 ```js
-import { hello } from 'j4Tools';
+import { cloneDeep } from 'j4Tools';
 
-hello('hello world');
+cloneDeep(['hello world']);
 
 // hello world
 
@@ -27,13 +27,15 @@ hello('hello world');
 
 // <script src="j4Tools.js"></script>
 
-j4Tools.hello('hello world');
+j4Tools.cloneDeep(['hello world']);
 ```
 
 ## In Node.js:
 
 ```js
 const j4Tools = require('j4Tools');
+
+j4Tools.cloneDeep(['hello world']);
 ```
 
 ## Support
@@ -44,4 +46,4 @@ const j4Tools = require('j4Tools');
 
 ## learn more
 
-[docs](https://kchzhang.github.io/)
+[Docs](https://kchzhang.github.io/)

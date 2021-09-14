@@ -11,6 +11,8 @@ import regPasswordStrong from './regexp/regPasswordStrong';
 import isBrowser from './data/browser';
 import deviceType from './data/deviceType';
 import getURLParams from './data/getUrlParams';
+import dateToMs from './date/dateToMs';
+import formatDate from './date/formatDate';
 
 export {
   cloneDeep,
@@ -25,5 +27,7 @@ export {
   regPasswordStrong,
   isBrowser,
   deviceType,
-  getURLParams
+  getURLParams,
+  dateToMs,
+  formatDate
 };
