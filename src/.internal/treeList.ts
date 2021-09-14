@@ -52,7 +52,7 @@ type PowerPartial<T> = {
   : T[U]
 }
 
-function treeList<T>(node: PowerPartial<T>, childrenKey: string): Array<PowerPartial<T>> {
+function treeList<T>(node: PowerPartial<T>, childrenKey: string = "children"): Array<PowerPartial<T>> {
   let nodes: Array<PowerPartial<T>> = [];
   if (node != null) {
     let stack = [];
