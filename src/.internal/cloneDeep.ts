@@ -1,5 +1,3 @@
-type CloneDeep<T> = (arrObj: T) => T;
-
-const cloneDeep: CloneDeep<any[] | object> = require('lodash/cloneDeep');
+import { cloneDeep } from 'lodash-es'
 
 export default cloneDeep;

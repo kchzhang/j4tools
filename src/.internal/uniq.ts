@@ -1,5 +1,3 @@
-type Uniq<T> = (arr: T) => T;
-
-const uniq: Uniq<any[]> = require("lodash/uniq");
+import { uniq } from 'lodash-es';
 
 export default uniq;

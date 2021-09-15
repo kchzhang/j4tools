@@ -1,5 +1,3 @@
-type IsObjEmpty = (val: any) => boolean;
-
-const isEmpty: IsObjEmpty = require('lodash/isEmpty');
+import { isEmpty } from 'lodash-es';
 
 export default isEmpty;
