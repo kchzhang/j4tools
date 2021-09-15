@@ -1,3 +1,3 @@
-import { isEmpty } from 'lodash-es';
+import { isEmpty } from 'lodash';
 
 export default isEmpty;

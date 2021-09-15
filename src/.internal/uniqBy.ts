@@ -1,3 +1,3 @@
-import { uniqBy } from 'lodash-es';
+import { uniqBy } from 'lodash';
 
 export default uniqBy;
