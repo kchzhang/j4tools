@@ -55,9 +55,13 @@
     }
   ],
   "devDependencies": {
+    "@babel/core": "^7.15.5",
     "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.15.6",
     "@size-limit/preset-small-lib": "^5.0.3",
+    "@types/lodash": "^4.14.173",
     "@types/lodash-es": "^4.17.5",
+    "babel-loader": "^8.2.2",
     "husky": "^7.0.2",
     "size-limit": "^5.0.3",
     "tsdx": "^0.14.1",
