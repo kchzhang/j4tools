@@ -1,5 +1,7 @@
 # j4Tools
 
+[![CI](https://github.com/kchzhang/j4Tools/actions/workflows/main.yml/badge.svg)](https://github.com/kchzhang/j4Tools/actions/workflows/main.yml)
+
 A modern JavaScript utility library delivering modularity, performance & extras.
 
 Business tools
