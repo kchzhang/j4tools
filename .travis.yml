@@ -1,0 +1,12 @@
+# 使用的语言  
+language: node_js	
+# 使用的nodejs版本  
+node_js:  
+ - v14.16.0		
+# 执行的脚本 
+script:  
+ - npm run test  		
+# 仓库的分支  
+branches:  
+  only:  
+  - master 

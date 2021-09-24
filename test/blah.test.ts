@@ -1,7 +1,12 @@
-import { hello } from '../src';
-
+import { getURLParams } from '../src';
+interface Params {
+  [key: string]: any
+}
 describe('blah', () => {
   it('works', () => {
-    hello("1");
+    const params: Params = getURLParams("http://www.j4tools.cn?name=knox.zhang");
+    if (params['name'] == "knox.zhang") {
+      console.log("ok");
+    }
   });
 });
