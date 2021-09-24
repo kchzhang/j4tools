@@ -3,6 +3,7 @@
 A modern JavaScript utility library delivering modularity, performance & extras.
 
 Business tools
+[Docs](https://kchzhang.github.io/)
 
 ## Using npm:
 
@@ -40,9 +41,9 @@ j4Tools.cloneDeep(['hello world']);
 
 ## Support
 
-| </br>IE / Edge   | </br>Firefox    | </br>Chrome     | </br>Safari     | </br>Opera      | </br>Electron   |
-| ---------------- | --------------- | --------------- | --------------- | --------------- | --------------- |
-| Edge (polyfills) | last 2 versions | last 2 versions | last 2 versions | last 2 versions | last 2 versions |
+| </br>IE / Edge      | </br>Firefox    | </br>Chrome     | </br>Safari     | </br>Opera      | </br>Electron   |
+| ------------------- | --------------- | --------------- | --------------- | --------------- | --------------- |
+| IE/Edge (polyfills) | last 2 versions | last 2 versions | last 2 versions | last 2 versions | last 2 versions |
 
 ## learn more
 

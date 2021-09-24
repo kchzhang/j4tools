@@ -17,6 +17,7 @@ import blobDown from './down/blobDown';
 import getNodePath from './data/getNodePath';
 import listToTree from './data/listToTree';
 import treeToList from './data/treeToList';
+import Cookies from './cookies';
 
 export {
   cloneDeep,
@@ -37,5 +38,6 @@ export {
   blobDown,
   getNodePath,
   listToTree,
-  treeToList
+  treeToList,
+  Cookies
 };
