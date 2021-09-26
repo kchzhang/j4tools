@@ -5,7 +5,7 @@
 A modern JavaScript utility library delivering modularity, performance & extras.
 
 Business tools
-[Docs](https://kchzhang.github.io/)
+[Docs](http://www.j4tools.cn/)
 
 ## Using npm:
 
@@ -49,4 +49,4 @@ j4tools.cloneDeep([1, 2, 3]);
 
 ## learn more
 
-[Docs](https://kchzhang.github.io/)
+[Docs](http://www.j4tools.cn/)
