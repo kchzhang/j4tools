@@ -18,8 +18,8 @@ class Cookies implements Cookie {
   public defaultAttributes = {
     path: '/'
   }
-  constructor(baseConfig: Attributes) {
-    this.defaultAttributes = Object.assign(this.defaultAttributes, baseConfig)
+  constructor(baseConfig?: Attributes) {
+    this.defaultAttributes = Object.assign(this.defaultAttributes, baseConfig || {})
   }
   read(value: string) {
     if (value[0] === '"') {

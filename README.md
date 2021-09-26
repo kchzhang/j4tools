@@ -1,6 +1,6 @@
-# j4Tools
+# j4tools
 
-[![CI](https://github.com/kchzhang/j4Tools/actions/workflows/main.yml/badge.svg)](https://github.com/kchzhang/j4Tools/actions/workflows/main.yml)
+[![CI](https://github.com/kchzhang/j4tools/actions/workflows/main.yml/badge.svg)](https://github.com/kchzhang/j4tools/actions/workflows/main.yml)
 
 A modern JavaScript utility library delivering modularity, performance & extras.
 
@@ -10,35 +10,35 @@ Business tools
 ## Using npm:
 
 ```bash
-$ npm install j4Tools --save
+$ npm install j4tools --save
 
 # or
-$ yarn add j4Tools
+$ yarn add j4tools
 
 ```
 
 ## In a browser:
 
 ```js
-import { cloneDeep } from 'j4Tools';
+import { cloneDeep } from 'j4tools';
 
-cloneDeep(['hello world']);
+cloneDeep([1, 2, 3]);
 
-// hello world
+// [1, 2, 3]
 
 // or
 
-// <script src="j4Tools.js"></script>
+// <script src="j4tools.js"></script>
 
-j4Tools.cloneDeep(['hello world']);
+j4tools.cloneDeep([1, 2, 3]);
 ```
 
 ## In Node.js:
 
 ```js
-const j4Tools = require('j4Tools');
+const j4tools = require('j4tools');
 
-j4Tools.cloneDeep(['hello world']);
+j4tools.cloneDeep([1, 2, 3]);
 ```
 
 ## Support
