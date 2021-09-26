@@ -40,14 +40,14 @@
   "name": "j4tools",
   "author": "knox.zhang",
   "bugs": {
-    "url": "https://github.com/kchzhang/j4Tools/issues"
+    "url": "https://github.com/kchzhang/j4tools/issues"
   },
-  "homepage": "https://github.com/kchzhang/j4Tools#readme",
+  "homepage": "https://github.com/kchzhang/j4tools#readme",
   "module": "dist/j4tools.esm.js",
   "size-limit": [
     {
       "path": "dist/j4tools.cjs.production.min.js",
-      "limit": "50 KB"
+      "limit": "100 KB"
     },
     {
       "path": "dist/j4tools.esm.js",
