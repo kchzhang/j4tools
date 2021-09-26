@@ -54,11 +54,11 @@ class Cookies implements Cookie {
 
     return name ? list[name] : list
   }
-  set(name: string, value: string, attributes: Attributes) {
+  set(name: string, value: string, attribute?: Attributes) {
     if (typeof document === 'undefined') {
       return
     }
-    attributes = Object.assign({}, this.defaultAttributes, attributes)
+    let attributes = Object.assign({}, this.defaultAttributes, attribute || {})
 
     if (typeof attributes.expires === 'number') {
       attributes.expires = new Date(Date.now() + attributes.expires * 864e5)
