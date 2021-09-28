@@ -14,6 +14,7 @@ import getURLParams from './data/getUrlParams';
 import dateToMs from './date/dateToMs';
 import formatDate from './date/formatDate';
 import blobDown from './down/blobDown';
+import formDown from './down/formDown';
 import getNodePath from './data/getNodePath';
 import listToTree from './data/listToTree';
 import treeToList from './data/treeToList';
@@ -36,6 +37,7 @@ export {
   dateToMs,
   formatDate,
   blobDown,
+  formDown,
   getNodePath,
   listToTree,
   treeToList,
